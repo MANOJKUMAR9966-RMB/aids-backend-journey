@@ -1,1 +1,35 @@
+#include<iostream>
+using namespace std;
 
+int main()
+{
+    cout<<"Hello Manoj Kumar"<<endl;
+
+    int a,b;
+    cout<<"Enter two numbers: ";
+    cin>>a>>b;
+
+    cout<<"Sum = "<<a+b<<endl;
+
+    int n;
+    cout<<"Enter a number: ";
+    cin>>n;
+
+    if(n%2==0)
+        cout<<"Even number"<<endl;
+    else
+        cout<<"Odd number"<<endl;
+
+    int x,y,z;
+    cout<<"Enter three numbers: ";
+    cin>>x>>y>>z;
+
+    if(x>=y && x>=z)
+        cout<<"Largest number: "<<x<<endl;
+    else if(y>=x && y>=z)
+        cout<<"Largest number: "<<y<<endl;
+    else
+        cout<<"Largest number: "<<z<<endl;
+
+    return 0;
+}
